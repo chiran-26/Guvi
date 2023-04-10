@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <style>
+        body {
+            background-color: #0d6efd; 
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            padding: 20px;
+            margin-top: 100px;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+        <div class="form">
+        <script src="js/bootstrap.min.js"></script>
+        <h1>Signup form</h1>
+        <p>It's free and always will be.</p>
+        <form action="">
+            <div class="grid-details">
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+    
+                      <div class="form-outline">
+                        <label class="form-label" for="firstName">First Name</label>
+                        <input type="text" id="fname" class="form-control form-control-lg" />
+                      </div>
+    
+                    </div>
+                    <div class="col-md-6 mb-3">
+    
+                      <div class="form-outline">
+                        <label class="form-label" for="lastName">Last Name</label>
+                        <input type="text" id="lname" class="form-control form-control-lg" />
+                       </div>
+    
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label"> Email:</label>
+                    <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="number" class="form-label"> Contact Number:</label>
+                        <input type="tel" class="form-control" id="contact" required pattern="[0-9]{10}" oninvalid="this.setCustomValidity('Enter 10 digit Number')"oninput="this.setsetCustomValidity('')">
+                        </div>
+    
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" class="form-control" id="dob">
+                  </div>
+                <div class="grid-details">
+                    <div class="mb-3">
+                   <label for="password1" class="form-label">Password:</label>
+                   <input type="password" class="form-control" id="password">
+                   </div>
+                   <div class="mb-3">
+                    <label for="password2" class="form-label"> Confirm Password:</label>
+                    <input type="password" class="form-control" id="password">
+                    </div>
+                    
+                <div class="profile-img">
+                    <div class="file-upload">
+                        <label for="">Photo:</label>
+                        <input type="file" id="image-preview" name="image" class="file-input" required oninvalid="this.setCustomValidity('Select an image')" oninput="this.setsetCustomValidity('')">
+                    </div>
+                </div>
+                <div class="submit">
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                </div>
+                </div>
+               <div class="link">Already signed up? <a href="login.html">Login Now </a></div>
+             </div>
+            </div>
+        </form>
+         </div>
+        </div> 
+</body>
+</html>
